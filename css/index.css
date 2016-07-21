@@ -1,0 +1,59 @@
+/* index.css for index.html file - Timesheet Project */
+
+#timesheetButtonContainer {
+    padding-top: 7px;
+    padding-right: 10px;
+}
+
+.scrollable-menu {
+    height: auto;
+    max-height: 200px;
+    overflow-x: hidden;
+}
+
+#dateRow { 
+    border-bottom-style: solid; 
+    border-width: 3px;
+}
+
+strong pre {
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+/* backward and forward button styling */
+    .col-md-2 button { height: 20px; display: table; }
+    .col-md-2 button span { display:table-cell; vertical-align:middle; }
+
+/* ul styling */
+    ul { width: 40%; }
+    ul li { text-align: center; }
+
+/* Modal Styling */
+    .modal-body, .modal-header { text-align: center; }
+    .modal-header { font-size: 18px; }
+    .modal-header button { color: white; }
+
+/* Navbar-brand Styling */
+    .navbar-brand { color: white; }
+    .navbar-brand:visited { color: white; }
+    .navbar-brand:hover { color:darkgrey; }
+
+/* Theme Styling */
+    .theme {
+        color: #ffffff;
+        background-color: #272727;
+    }
+
+    .theme td:not(:first-child), td:not(:first-child) { text-align: center; }
+
+/* Dropdown Option Button Styling */
+    #optionButton { height: 20px; }
+    #optionButton span { padding-bottom: 15px; }
+
+/* Stop Button Styling */
+    #redStop { color: red; }
+    #blueStop { color: blue; }
+    #greenStop { color: green; }
+    #purpleStop { color: purple; }
+    #orangeStop { color: orange; }
